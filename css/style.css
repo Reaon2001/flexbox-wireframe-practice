@@ -1,6 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 80px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 /* Header */
