@@ -47,8 +47,8 @@ aside {
 /* Footer */
 footer {
     background-color: #e36d0c;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
