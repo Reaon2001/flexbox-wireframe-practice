@@ -6,15 +6,16 @@ body {
 .container {
     max-width: 80px;
     margin: 20px auto;
-    padding: 20px;
 }
 
 /* Header */
 header {
-    background-color: #333;
-    color: whitesmoke;
+    background-color: #ff0080;
+    color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 /* Navigation */
