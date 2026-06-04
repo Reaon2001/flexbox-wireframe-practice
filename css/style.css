@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #ddd;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -18,11 +18,11 @@ header {
     margin-bottom: 20px;
 }
 
-/* Article container */
+/* Articles container */
 .articles {
     background: #38d66b;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 10px 0;
 }
 
 article {
@@ -52,3 +52,17 @@ footer {
     padding: 20px;
     border-radius: 15px;
 }
+
+/* Desktop layout */
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        gap: 15px;
+    }
+    .articles {
+        flex: 3;
+    }
+    aside {
+        flex: 1;
+        margin-top: 0;
+    }
