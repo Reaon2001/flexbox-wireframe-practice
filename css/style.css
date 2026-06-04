@@ -45,17 +45,20 @@ nav a {
     padding: 20px;
 }
 
+/* Article Section */
 .card {
     background-color: rgb(222, 14, 180);
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
 }
 
 aside {
-    background-color: #3c0ad1;
+    background-color: #0078d7;
     color: whitesmoke;
     text-align: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 /* Footer */
@@ -64,4 +67,5 @@ footer {
     color: whitesmoke;
     text-align: center;
     padding: 20px;
+    border-radius: 10px;
 }
