@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #555;
+    padding: 15px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ddd;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
