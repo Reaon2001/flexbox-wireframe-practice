@@ -1,68 +1,9 @@
-body {
-    background-color: #ddd;
-    font-family: Arial, sans-serif;
-}
-
+/* Parent Contsiner */
 .container {
-    max-width: 80px;
-    margin: 20px auto;
-}
-
-/* Header */
-header {
-    background-color: #ff0080;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-/* Articles container */
-.articles {
-    background: #38d66b;
-    padding: 30px;
-    border-radius: 10px 0;
-}
-
-article {
-    background-color: #ff0080;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 30px;
-    margin-bottom: 10px 0;
-}
-
-/* Aside */
-aside {
-    background-color: #0066ff;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
-/* Footer */
-footer {
-    background-color: #e36d0c;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-/* Desktop layout */
-@media (min-width: 768px) {
-    .container {
-        display: flex;
-        gap: 15px;
-    }
-    .articles {
-        flex: 3;
-    }
-    aside {
-        flex: 1;
-        margin-top: 0;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ccc;
+    box-sizing: border-box;
