@@ -18,12 +18,11 @@ header {
     margin-bottom: 20px;
 }
 
-/* Article Section */
-.card {
-    background-color: rgb(222, 14, 180);
+/* Article container */
+.articles {
+    background: #38d66b;
     padding: 30px;
     border-radius: 10px;
-    font-size: 1.5rem;
 }
 
 aside {
