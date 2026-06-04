@@ -51,9 +51,16 @@ nav a {
     border: 1px solid #ccc;
 }
 
+aside {
+    background-color: #3c0ad1;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #e36d0c;
     color: whitesmoke;
     text-align: center;
     padding: 20px;
