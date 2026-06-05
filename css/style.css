@@ -20,3 +20,12 @@ header, article, aside, footer {
     font-weight: bold;
     border-radius: 5px;
 }
+
+/* Specific styles for each section */
+header {
+    background-color: #d11a7f;
+}
+
+article {
+    background-color: #e6005c;
+}
